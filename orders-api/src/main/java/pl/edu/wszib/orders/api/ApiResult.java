@@ -1,6 +1,6 @@
 package pl.edu.wszib.orders.api;
 
-public interface ApiResult<TSuccess extends  ApiSuccess, TError extends Enum<?>> {
+public interface ApiResult<TSuccess extends ApiSuccess, TError extends Enum<?>> {
 
     TSuccess success();
 
